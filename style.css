@@ -1,0 +1,125 @@
+body{
+    background-image: url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704672000&semt=ais');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lightMode{
+    background-image: url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704672000&semt=ais');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.darkMode{
+    background-image: url('https://media.istockphoto.com/id/1132593892/photo/dark-blue-stained-grungy-background-or-texture.webp?b=1&s=170667a&w=0&k=20&c=Gpd2eQFUMMBg15xCZ3l_xXevqxPHrqaTGYECthR-NE0=');
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+.flexing {
+    display: flex;
+    justify-content: space-between;
+}
+.intro h1{
+    font-size: 40px;
+    text-align: center;
+}
+.intro p{
+    font-size: 22px;
+    text-align: center;
+    
+}
+.intro {
+    flex: 1;
+    text-align: left;
+    margin: 18% 50px 50px 100px;
+}
+
+.calculate {
+    flex: 1;
+    text-align: center;
+    margin: 14% 50px 50px 100px;
+    box-shadow: 1px 1px 1px 1px;
+}
+.upper h2{
+    text-align: left;
+    font-size: 28px;
+    padding: 0px 0px 10px 30px;
+}
+label{
+    cursor: pointer;
+}
+.radios{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.mid{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+.calculate {
+    border: 2px solid #333; 
+    border-radius: 20px; 
+    padding: 15px;
+    background-color: #d7ddfa;
+}
+.mid, .lower {
+    margin: 10px;
+}
+.lower{
+    font-size: 20px;
+    border: 2px solid #333;
+    border-radius: 10px 50px 50px 10px;
+}
+.mid{
+    text-align: left;
+}
+input[type="number"] {
+    background-color: rgb(241, 241, 252);
+    font-size: 18px;
+    border: 2px solid #333; 
+    border-radius: 10px; 
+    padding: 10px; 
+    appearance: none; 
+}
+
+label[for="height"], label[for="Weight"] {
+    position: relative;
+    display: inline-block; 
+    margin-bottom: 40px; 
+    cursor: pointer;
+}
+.lower {
+    transition: transform 0.5s ease;
+   background-color: rgb(169, 169, 253);
+   padding: 0px 20px;
+}
+
+.lower:hover {
+    transform: scale(1.01); 
+    background-color: rgb(180, 180, 255);
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.button{
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: rgb(240, 240, 255);
+    border-color: rgb(142, 142, 196);
+}
+label[for="height"]:hover input[type="number"] {
+    border-color: rgb(81, 81, 255);
+    transition: ease-in-out 0.5s;
+}
+label[for="Weight"]:hover input[type="number"] {
+    border-color: rgb(81, 81, 255); 
+    transition: ease-in-out 0.5s;
+}

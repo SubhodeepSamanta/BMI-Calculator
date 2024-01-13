@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <div class="flexing">
+            <div class="intro">
+                <h1>Body Mass Index Calculator</h1>
+                <p>Help understand more about your Body Mass Index with this BMI Calculator. While Body Mass is not the
+                    sole determinant of a healthy weight it offers a valuable starting point to evaluate your overall
+                    health and well being.</p>
+                <button class="button">Mode</button>
+            </div>
+            <div class="calculate">
+                <div class="upper">
+                    <h2>Enter Your Details:</h2>
+                    <div class="radios"><label for="male">Male
+                            <input type="radio" id="male" name="options" value="male"></label>
+                        <label for="female">Female
+                            <input type="radio" id="female" name="options" value="female"></label>
+                    </div>
+                </div>
+                <div class="mid">
+                    <label for="height">
+                        <p>Height (cms)</p>
+                        <input type="number" id="height" name="height" value="">
+                    </label>
+                    <label for="Weight">
+                        <p>Weight (kgs)</p>
+                        <input type="number" id="Weight" name="Weight" value="">
+                    </label>
+                </div>
+                <button class="lower">
+                    <p>Select your Gender, Type in your Height and Weight and Calculate your BMI...</p>
+                </button>
+            </div>
+        </div>
+    </main>
+    <script src="javas.js"></script>
+</body>
+
+</html>
